@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A67C6FB1ED976C400999542 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A67C6FA1ED976C400999542 /* InfoViewController.m */; };
+		4A67C6FF1ED97B0E00999542 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A67C6FE1ED97B0E00999542 /* User.m */; };
 		4A7CABE41ED569B70004855E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7CABE31ED569B70004855E /* main.m */; };
 		4A7CABE71ED569B70004855E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7CABE61ED569B70004855E /* AppDelegate.m */; };
 		4A7CABEA1ED569B70004855E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7CABE91ED569B70004855E /* ViewController.m */; };
@@ -14,9 +16,18 @@
 		4A7CABF01ED569B80004855E /* CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4A7CABEE1ED569B80004855E /* CoreData.xcdatamodeld */; };
 		4A7CABF21ED569B80004855E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A7CABF11ED569B80004855E /* Assets.xcassets */; };
 		4A7CABF51ED569B80004855E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A7CABF31ED569B80004855E /* LaunchScreen.storyboard */; };
+		4A7CAC081ED56E5B0004855E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7CAC071ED56E5B0004855E /* CoreData.framework */; };
+		4A7CAC0B1ED56F140004855E /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7CAC091ED56F130004855E /* libsqlite3.0.tbd */; };
+		4A7CAC0C1ED56F140004855E /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7CAC0A1ED56F130004855E /* libsqlite3.tbd */; };
+		4A7CAC321ED57AB80004855E /* StudentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7CAC311ED57AB80004855E /* StudentManager.m */; };
+		4A7CAC3A1ED5929D0004855E /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7CAC391ED5929D0004855E /* AddViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A67C6F91ED976C400999542 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		4A67C6FA1ED976C400999542 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		4A67C6FD1ED97B0E00999542 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		4A67C6FE1ED97B0E00999542 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		4A7CABDF1ED569B70004855E /* CoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A7CABE31ED569B70004855E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4A7CABE51ED569B70004855E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -28,6 +39,17 @@
 		4A7CABF11ED569B80004855E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A7CABF41ED569B80004855E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A7CABF61ED569B80004855E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A7CABFC1ED56A020004855E /* Student+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Student+CoreDataClass.h"; sourceTree = "<group>"; };
+		4A7CABFD1ED56A020004855E /* Student+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Student+CoreDataClass.m"; sourceTree = "<group>"; };
+		4A7CABFE1ED56A020004855E /* Student+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Student+CoreDataProperties.h"; sourceTree = "<group>"; };
+		4A7CABFF1ED56A020004855E /* Student+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Student+CoreDataProperties.m"; sourceTree = "<group>"; };
+		4A7CAC071ED56E5B0004855E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4A7CAC091ED56F130004855E /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		4A7CAC0A1ED56F130004855E /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		4A7CAC301ED57AB80004855E /* StudentManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentManager.h; sourceTree = "<group>"; };
+		4A7CAC311ED57AB80004855E /* StudentManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentManager.m; sourceTree = "<group>"; };
+		4A7CAC381ED5929D0004855E /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		4A7CAC391ED5929D0004855E /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +57,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A7CAC0B1ED56F140004855E /* libsqlite3.0.tbd in Frameworks */,
+				4A7CAC0C1ED56F140004855E /* libsqlite3.tbd in Frameworks */,
+				4A7CAC081ED56E5B0004855E /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A67C6FC1ED976D100999542 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				4A7CABFC1ED56A020004855E /* Student+CoreDataClass.h */,
+				4A7CABFD1ED56A020004855E /* Student+CoreDataClass.m */,
+				4A7CABFE1ED56A020004855E /* Student+CoreDataProperties.h */,
+				4A7CABFF1ED56A020004855E /* Student+CoreDataProperties.m */,
+				4A67C6FD1ED97B0E00999542 /* User.h */,
+				4A67C6FE1ED97B0E00999542 /* User.m */,
+			);
+			name = data;
+			sourceTree = "<group>";
+		};
 		4A7CABD61ED569B70004855E = {
 			isa = PBXGroup;
 			children = (
 				4A7CABE11ED569B70004855E /* CoreData */,
 				4A7CABE01ED569B70004855E /* Products */,
+				4A7CAC061ED56E5A0004855E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,10 +99,17 @@
 		4A7CABE11ED569B70004855E /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
+				4A67C6FC1ED976D100999542 /* data */,
 				4A7CABE51ED569B70004855E /* AppDelegate.h */,
 				4A7CABE61ED569B70004855E /* AppDelegate.m */,
+				4A7CAC301ED57AB80004855E /* StudentManager.h */,
+				4A7CAC311ED57AB80004855E /* StudentManager.m */,
 				4A7CABE81ED569B70004855E /* ViewController.h */,
 				4A7CABE91ED569B70004855E /* ViewController.m */,
+				4A67C6F91ED976C400999542 /* InfoViewController.h */,
+				4A67C6FA1ED976C400999542 /* InfoViewController.m */,
+				4A7CAC381ED5929D0004855E /* AddViewController.h */,
+				4A7CAC391ED5929D0004855E /* AddViewController.m */,
 				4A7CABEB1ED569B70004855E /* Main.storyboard */,
 				4A7CABF11ED569B80004855E /* Assets.xcassets */,
 				4A7CABF31ED569B80004855E /* LaunchScreen.storyboard */,
@@ -80,6 +126,16 @@
 				4A7CABE31ED569B70004855E /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4A7CAC061ED56E5A0004855E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A7CAC091ED56F130004855E /* libsqlite3.0.tbd */,
+				4A7CAC0A1ED56F130004855E /* libsqlite3.tbd */,
+				4A7CAC071ED56E5B0004855E /* CoreData.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,8 +210,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A67C6FF1ED97B0E00999542 /* User.m in Sources */,
+				4A7CAC321ED57AB80004855E /* StudentManager.m in Sources */,
 				4A7CABF01ED569B80004855E /* CoreData.xcdatamodeld in Sources */,
+				4A67C6FB1ED976C400999542 /* InfoViewController.m in Sources */,
 				4A7CABEA1ED569B70004855E /* ViewController.m in Sources */,
+				4A7CAC3A1ED5929D0004855E /* AddViewController.m in Sources */,
 				4A7CABE71ED569B70004855E /* AppDelegate.m in Sources */,
 				4A7CABE41ED569B70004855E /* main.m in Sources */,
 			);
@@ -316,6 +376,7 @@
 				4A7CABFB1ED569B80004855E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
